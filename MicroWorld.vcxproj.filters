@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Persons">
+      <UniqueIdentifier>{77efbe17-912b-4bce-8b6b-8b834bd6e18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Persons\HeuristicPersons">
+      <UniqueIdentifier>{93b14dc7-d80b-496a-958e-4e72c309a50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Persons\HeuristicPersons\Rationing">
+      <UniqueIdentifier>{d9000fbb-d00b-4767-bc95-8af4479f7a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Persons\HeuristicPersons\PriceAdjusting">
+      <UniqueIdentifier>{feb22772-f392-4274-a4b5-c41cb0292ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Persons">
+      <UniqueIdentifier>{2d6fe1c2-a022-4e3e-99f3-3aa72e82993b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Persons\HeuristicPersons">
+      <UniqueIdentifier>{226bf208-4d3d-4049-a906-75ba5ebcee7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Persons\HeuristicPersons\PriceAdjusting">
+      <UniqueIdentifier>{1d300122-7a35-42f7-bb40-42192251bd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Persons\HeuristicPersons\Rationing">
+      <UniqueIdentifier>{acf5f090-8dfe-4641-bb80-8403581d0f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Persons\HeuristicPersons\WTP">
+      <UniqueIdentifier>{37a9588d-698e-4ff5-a5d3-1af3051b6673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Persons\HeuristicPersons\WTP">
+      <UniqueIdentifier>{66388979-e32a-4a8b-b37d-66051484c5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Persons\HeuristicPersons\DetermineQuantities">
+      <UniqueIdentifier>{3616f9f1-e111-4444-bd55-383efe316d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Persons\HeuristicPersons\DetermineQuantities">
+      <UniqueIdentifier>{b0e9d689-d1c3-4c72-9f3e-0d2cee705999}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoodInfoHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KnapsackSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KnapsackFPTASSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MarginalGoodCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeuristicPerson.h">
+      <Filter>Header Files\Persons\HeuristicPersons</Filter>
+    </ClInclude>
+    <ClInclude Include="DumbRation.h">
+      <Filter>Header Files\Persons\HeuristicPersons\Rationing</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartRation.h">
+      <Filter>Header Files\Persons\HeuristicPersons\Rationing</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartRationDumbAdjustHeuristicPerson.h">
+      <Filter>Header Files\Persons\HeuristicPersons</Filter>
+    </ClInclude>
+    <ClInclude Include="DumbRationDumbAdjustHeuristicPerson.h">
+      <Filter>Header Files\Persons\HeuristicPersons</Filter>
+    </ClInclude>
+    <ClInclude Include="DumbAdjust.h">
+      <Filter>Header Files\Persons\HeuristicPersons\PriceAdjusting</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartAdjust.h">
+      <Filter>Header Files\Persons\HeuristicPersons\PriceAdjusting</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonBase.h">
+      <Filter>Header Files\Persons</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartRationSmartAdjustHeuristicPerson.h">
+      <Filter>Header Files\Persons\HeuristicPersons</Filter>
+    </ClInclude>
+    <ClInclude Include="KnapsackTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DumbRationSmartAdjustHeuristicPerson.h">
+      <Filter>Header Files\Persons\HeuristicPersons</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartWTP.h">
+      <Filter>Header Files\Persons\HeuristicPersons\WTP</Filter>
+    </ClInclude>
+    <ClInclude Include="DumbWTP.h">
+      <Filter>Header Files\Persons\HeuristicPersons\WTP</Filter>
+    </ClInclude>
+    <ClInclude Include="WeirdWTP.h">
+      <Filter>Header Files\Persons\HeuristicPersons\WTP</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHeuristicPerson.h">
+      <Filter>Header Files\Persons\HeuristicPersons</Filter>
+    </ClInclude>
+    <ClInclude Include="OysterWTP.h">
+      <Filter>Header Files\Persons\HeuristicPersons\WTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ToString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DumbDetermineOptimalQuantities.h">
+      <Filter>Header Files\Persons\HeuristicPersons\DetermineQuantities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GoodItemHistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperStructs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KnapsackSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KnapsackFPTASSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarginalGoodCell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeuristicPerson.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonBase.cpp">
+      <Filter>Source Files\Persons</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbRation.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\Rationing</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartRation.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\Rationing</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbAdjust.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\PriceAdjusting</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartAdjust.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\PriceAdjusting</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbRationDumbAdjustHeuristicPerson.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartRationDumbAdjustHeuristicPerson.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartRationSmartAdjustHeuristicPerson.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons</Filter>
+    </ClCompile>
+    <ClCompile Include="KnapsackTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbRationSmartAdjustHeuristicPerson.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartWTP.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\WTP</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbWTP.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\WTP</Filter>
+    </ClCompile>
+    <ClCompile Include="WeirdWTP.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\WTP</Filter>
+    </ClCompile>
+    <ClCompile Include="OysterWTP.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\WTP</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHeuristicPerson.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbDetermineOptimalQuantities.cpp">
+      <Filter>Source Files\Persons\HeuristicPersons\DetermineQuantities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
